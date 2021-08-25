@@ -17,7 +17,8 @@ public class SetDemo {
         //Add a "billion" more Persons
         Person px = new Person("George");
         personSet.add(px);
-
+        
+        System.out.println("Size of the set" + personSet.size());
         System.out.println("p1 --> " + p1.getName());
         System.out.println("p2 --> " + p2.getName());
         //We are using a Set. How come we could insert two ""identical" Persons?
