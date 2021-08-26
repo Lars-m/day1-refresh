@@ -7,7 +7,7 @@ public class PersonWithId {
 
     public PersonWithId(String name) {
         this.name = name;
-        //this.id = nextId++;
+        this.id = nextId++;
     }
 
     public String getName() {return name;}

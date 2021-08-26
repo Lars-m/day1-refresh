@@ -21,6 +21,7 @@ public class ReferenceDemo {
         player1 = new Player("Peter");
         Player player2;
         player2 = new Player("Janne");
+
         player2 = player1;
         player2.setName("John");
 

@@ -1,11 +1,12 @@
 package ex4_list_set_map_and_equals;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class ListDemo {
 
     public static void main(String[] args) {
-        List<Person> persons = null; //= what can we add here to get a specific implementation so the following will work
+        List<Person> persons = new ArrayList<>();
 
         Person p1 = new Person("Peter");
         persons.add(p1);
@@ -16,6 +17,7 @@ public class ListDemo {
         //Add a "billion" more Persons
         Person px = new Person("George");
         persons.add(px);
+
         // Given the data above, how could check whether "George" exists in the list ?
     }
 

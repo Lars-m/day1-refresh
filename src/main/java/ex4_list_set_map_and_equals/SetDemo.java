@@ -9,9 +9,10 @@ public class SetDemo {
         Set<Person> personSet = new HashSet<>(); //= what can add here to get a specific implementation
 
         Person p1 = new Person("Peter");
+
         personSet.add(p1);
         Person p2 = new Person("Peter");
-        personSet.add(p2);
+        System.out.println(personSet.add(p2));
         Person p3 = new Person("Janne");
         personSet.add(p3);
         //Add a "billion" more Persons
